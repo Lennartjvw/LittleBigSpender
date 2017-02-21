@@ -1,12 +1,6 @@
-/// <reference path="message.ts"/>
-
-class Main {
-    constructor() {
-       let demomessage = new Message();
-    }
-} 
+/// <reference path="startscreen.ts"/>
 
 // hier starten we de applicatie
 window.addEventListener("load", function() {
-    new Main();
+    new Startscreen()
 });
