@@ -52,10 +52,59 @@ title {
     width: 300px;
     height: 30px;
     display:block;
+    font-size: 14px;
+    text-align: center;
     background-color: white;
     border: solid 2px grey;
     margin: 0 auto;
     left: 0;
     right: 0;
+    margin-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#startButton {
+    width: 300px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: green;
+    display:block;
+
+}
+
+#sideBar {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+}
+
+#health {
+    width: 80%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: green;
+    display: block;
+    margin-top: 20px;
+}
+
+#happiness {
+    width: 80%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: green;
+    display: block;
+    margin-top: 20px;
+}
+
+#stamina {
+    width: 80%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: green;
+    display: block;
     margin-top: 20px;
 }
